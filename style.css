@@ -62,3 +62,11 @@ strong {
     color:#c0d09b;
     text-transform: uppercase;
 }
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgb(216, 167, 167);
+}
