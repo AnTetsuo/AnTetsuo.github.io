@@ -11,7 +11,7 @@ body {
 .mainTitle {
     font-family: monospace;
     text-transform: uppercase;
-    background-color: #8d697a;
+    background-color: #5e371a;
     display: inline;
     padding: 0px;
 }
@@ -25,7 +25,8 @@ body {
 .listing {
     list-style: none;
     padding: 10px;
-    background-color: #8d697a;
+    background-color: #5e371a
+    ;
     display:inline-block;
 }
 
@@ -36,8 +37,13 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+#aboutme p {
+    background-color: #7d5246;
+    font-weight: 500;
+}
+
 #skilllist {
-    padding: 15px;
+    padding: 0px;
     max-width: 45%;
     margin:auto;
     font-family: monospace;
@@ -45,13 +51,14 @@ body {
 }
 
 .title {
-    background-color: #8d697a;
+    background-color: #5e371a;
     text-transform: uppercase;
     font-family: monospace;
     font-size: 20px;
+    margin: 0;
 }
 
 strong {
-    color:firebrick;
+    color:#c0d09b;
     text-transform: uppercase;
 }
