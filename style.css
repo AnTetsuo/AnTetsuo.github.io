@@ -1,0 +1,53 @@
+body {
+    background-color:#0d2b45 ;
+    color:#ffecd6;
+    text-align: center;
+}
+
+.mainTitle {
+    font-family: monospace;
+    text-transform: uppercase;
+    background-color: #8d697a;
+    display: inline;
+    padding: 0px;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.listing {
+    list-style: none;
+    padding: 10px;
+    background-color: #8d697a;
+    display:inline-block;
+}
+
+#aboutme {
+    padding: 15px;
+    max-width: 45%;
+    margin:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#skilllist {
+    padding: 15px;
+    max-width: 45%;
+    margin:auto;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.title {
+    background-color: #8d697a;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+strong {
+    color:firebrick;
+    text-transform: uppercase;
+}
