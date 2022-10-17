@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(50, 50, 50);
+    color: fuchsia;
+}
+
 .menu {
     border: 15px solid blue;
     text-align: center;
@@ -8,21 +13,27 @@
     display: inline-block;
 }
 
-.name {
-    border: 15px solid blue
+#name {
+    border: 15px solid blue;
+    text-align: center;
 }
 
 .img {
-    border: 15px solid blue
+    border: 15px solid blue;
+    width: 35%;
+    display: inline-block;
 }
 .img img {
-    width:35%;
+    width: 100%;
+    border-radius: 30%;
+    border: 5px solid blue;
 }
 
 .aboutme {
-    border: 15px solid blue
+    border: 15px solid blue;
+    display: inline-block;
 }
 
 .skilllist{
-    border: 15px solid blue
+    border: 15px solid blue;
 }
