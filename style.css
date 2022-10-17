@@ -1,8 +1,3 @@
-#pic {
-    border-radius: 50%;
-    width: 25%;
-}
-
 body {
     background-color:#bba67e ;
     color:#ffecd6;
@@ -33,12 +28,26 @@ body {
     margin:auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
-    max-width: 40%;
+    max-width: 70%;
+    position:relative
+}
+
+#pic {
+    border-radius: 50%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
 }
 
 #aboutme p {
     background-color: #7d5246;
     font-weight: 500;
+    margin-left: 25%;
+}
+
+#aboutme h1 {
+    margin-left: 25%;
 }
 
 #skilllist {
