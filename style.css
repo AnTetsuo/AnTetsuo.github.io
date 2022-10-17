@@ -1,79 +1,28 @@
-body {
-    background-color:#bba67e ;
-    color:#ffecd6;
+.menu {
+    border: 15px solid blue;
     text-align: center;
 }
 
-.mainTitle {
-    font-family: monospace;
-    text-transform: uppercase;
-    background-color: #5e371a;
-    padding: 0px;
-}
-
-#menu li {
-    padding: 10px;
-    text-transform: uppercase;
-    display: inline;
-}
-
-.listing {
-    list-style: none;
-    padding: 10px;
-    background-color: #5e371a;
-}
-
-#aboutme {
-    padding: 15px;
-    margin:auto;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.menu ul li{
+    list-style-type:none;
     display: inline-block;
-    max-width: 70%;
-    position:relative
 }
 
-#pic {
-    border-radius: 50%;
-    height: 90%;
-    position: absolute;
-    left: 5%;
-    top: 5%;
+.name {
+    border: 15px solid blue
 }
 
-#aboutme p {
-    background-color: #7d5246;
-    font-weight: 500;
-    margin-left: 25%;
+.img {
+    border: 15px solid blue
+}
+.img img {
+    width:35%;
 }
 
-#aboutme h1 {
-    margin-left: 25%;
+.aboutme {
+    border: 15px solid blue
 }
 
-#skilllist {
-    padding: 0px;
-    margin:auto;
-    font-family: monospace;
-    font-size: 1.5em;
-}
-
-.title {
-    background-color: #5e371a;
-    text-transform: uppercase;
-    font-family: monospace;
-    font-size: 20px;
-    margin: 0;
-}
-
-strong {
-    color:#c0d09b;
-    text-transform: uppercase;
-}
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: rgb(216, 167, 167);
+.skilllist{
+    border: 15px solid blue
 }
