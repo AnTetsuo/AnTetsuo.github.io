@@ -18,10 +18,16 @@ body {
     text-align: center;
 }
 
+.profile {
+    border: 5px solid green;
+    position:relative;
+}
+
 .img {
     border: 15px solid blue;
     width: 35%;
     display: inline-block;
+    position: relative;
 }
 .img img {
     width: 100%;
@@ -32,6 +38,7 @@ body {
 .aboutme {
     border: 15px solid blue;
     display: inline-block;
+    position: absolute;
 }
 
 .skilllist{
