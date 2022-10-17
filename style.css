@@ -12,12 +12,10 @@ body {
     font-family: monospace;
     text-transform: uppercase;
     background-color: #5e371a;
-    display: inline;
     padding: 0px;
 }
 
 #menu li {
-    display: inline;
     padding: 10px;
     text-transform: uppercase;
 }
@@ -25,9 +23,7 @@ body {
 .listing {
     list-style: none;
     padding: 10px;
-    background-color: #5e371a
-    ;
-    display:inline-block;
+    background-color: #5e371a;
 }
 
 #aboutme {
