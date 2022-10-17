@@ -1,5 +1,6 @@
 #pic {
     border-radius: 50%;
+    width: 25%;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
 
 #aboutme {
     padding: 15px;
-    max-width: 45%;
     margin:auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -40,7 +40,6 @@ body {
 
 #skilllist {
     padding: 0px;
-    max-width: 45%;
     margin:auto;
     font-family: monospace;
     font-size: 1.5em;
