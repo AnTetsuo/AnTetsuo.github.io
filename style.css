@@ -39,8 +39,23 @@ body {
     border: 15px solid blue;
     display: inline-block;
     position: absolute;
+    margin: 0px 10px 10px 10px;
 }
 
-.skilllist{
+.skilllist {
     border: 15px solid blue;
+    width: 35%;
+    margin: 5px 5px 5px 0px;
+}
+
+.skilllist h1 {
+    padding: 0px 0px 0px 35px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.skilllist ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 20px;
+    font-family: monospace;
 }
