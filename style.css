@@ -19,6 +19,7 @@ body {
 #menu li {
     padding: 10px;
     text-transform: uppercase;
+    display: inline;
 }
 
 .listing {
