@@ -31,7 +31,9 @@ body {
 #aboutme {
     padding: 15px;
     margin:auto;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    max-width: 40%;
 }
 
 #aboutme p {
