@@ -35,8 +35,8 @@ body {
 }
 
 .profile {
-    border: 5px solid green;
     position:relative;
+    margin: 20px 0px 0px 0px;
 }
 
 .img {
