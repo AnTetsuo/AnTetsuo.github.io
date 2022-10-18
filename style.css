@@ -75,3 +75,8 @@ body {
     font-size: 18px;
     margin: 0px 0px 0px 15px
 }
+
+.listing li:nth-of-type(odd) {
+    font-style: italic;
+    text-decoration: underline;
+}
