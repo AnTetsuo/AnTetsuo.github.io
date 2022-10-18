@@ -40,15 +40,16 @@ body {
 }
 
 .img {
-    border: 15px solid blue;
-    width: 35%;
+    width: 40%;
     display: inline-block;
     position: relative;
+    border-radius: 30px;
+    margin: 5px 5px 5px 5ox;
 }
 .img img {
-    width: 100%;
+    border: 15px solid rgb(0, 0, 0);
+    width: 90%;
     border-radius: 30%;
-    border: 5px solid blue;
 }
 
 .aboutme {
