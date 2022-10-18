@@ -5,13 +5,14 @@ body {
 
 .menu {
     text-align: center;
-    margin: 0% 10% 0% 10%
+    margin: 0% 10% 0% 10%;
 }
 
 .menu ul {
     padding: 5px 0px 5px 0px;
     display: inline-block;    
     border: 5px solid rgb(161, 158, 159);
+    background-color: #070707;
 }
 
 .menu ul li{
@@ -48,7 +49,6 @@ body {
 }
 .img img {
     width: 90%;
-    border-radius: 30%;
     padding: 10px;
     background-color: rgb(161, 158, 159);
 }
