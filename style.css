@@ -53,10 +53,18 @@ body {
 }
 
 .aboutme {
-    border: 15px solid blue;
     display: inline-block;
     position: absolute;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 5% 10px 5%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.aboutme h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 5px 0px 0px 0px;
+    background-color: black;
 }
 
 .skilllist {
