@@ -1,72 +1,96 @@
-#pic {
-    border-radius: 50%;
-}
-
 body {
-    background-color:#bba67e ;
-    color:#ffecd6;
+    background-color: rgb(50, 50, 50);
+    color: rgb(204, 196, 204);
+}
+
+.menu {
     text-align: center;
+    margin: 0% 10% 0% 10%;
 }
 
-.mainTitle {
-    font-family: monospace;
-    text-transform: uppercase;
-    background-color: #5e371a;
-    display: inline;
-    padding: 0px;
+.menu ul {
+    padding: 5px 0px 5px 0px;
+    display: inline-block;    
+    border: 5px solid rgb(161, 158, 159);
+    background-color: #070707;
 }
 
-#menu li {
-    display: inline;
-    padding: 10px;
-    text-transform: uppercase;
-}
-
-.listing {
-    list-style: none;
-    padding: 10px;
-    background-color: #5e371a
-    ;
-    display:inline-block;
-}
-
-#aboutme {
-    padding: 15px;
-    max-width: 45%;
-    margin:auto;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-#aboutme p {
-    background-color: #7d5246;
-    font-weight: 500;
-}
-
-#skilllist {
-    padding: 0px;
-    max-width: 45%;
-    margin:auto;
-    font-family: monospace;
-    font-size: 1.5em;
-}
-
-.title {
-    background-color: #5e371a;
+.menu ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
     text-transform: uppercase;
     font-family: monospace;
     font-size: 20px;
-    margin: 0;
 }
 
-strong {
-    color:#c0d09b;
+#name {
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
     text-transform: uppercase;
 }
 
+#name h1 {
+    margin: 0px;
+}
+
+.profile {
+    position:relative;
+    margin: 20px 0px 0px 0px;
+}
+
+.img {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    margin: 5px 5px 5px 5ox;
+}
+.img img {
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(161, 158, 159);
+    border-radius: 25px;
+}
+
+.aboutme {
+    display: inline-block;
+    position: absolute;
+    margin: 0px 5% 10px 5%;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.aboutme h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 5px 0px 0px 0px;
+    background-color: black;
+    font-size: 38px;
+}
+
+.listing {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px
+}
+
+.listing li:nth-of-type(odd) {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 a:link {
-    color: black;
+    color:rgb(28, 45, 121);
 }
 
 a:visited {
-    color: rgb(216, 167, 167);
+    color:rgb(9, 255, 0);
+}
+
+a:hover {
+    color:rgb(255, 11, 174);
 }
