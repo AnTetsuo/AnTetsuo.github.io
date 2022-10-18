@@ -22,11 +22,15 @@ body {
 }
 
 #name {
-    border: 15px solid blue;
     text-align: center;
     font-size: 25px;
     font-family: monospace;
     text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+#name h1 {
+    margin: 0px;
 }
 
 .profile {
