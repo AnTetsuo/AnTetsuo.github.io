@@ -81,3 +81,15 @@ body {
     font-style: italic;
     text-decoration: underline;
 }
+
+a:link {
+    color:rgb(28, 45, 121);
+}
+
+a:visited {
+    color:rgb(9, 255, 0);
+}
+
+a:hover {
+    color:rgb(255, 11, 174);
+}
