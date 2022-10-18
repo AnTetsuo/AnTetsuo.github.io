@@ -65,25 +65,10 @@ body {
     text-decoration: underline;
     margin: 5px 0px 0px 0px;
     background-color: black;
-    font-size: 42px;
+    font-size: 38px;
 }
 
-.skilllist {
-    margin: 5px 0% 5px 0%;
-    display: inline-block;
-    width: 45%;
-}
-
-.skilllist h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: monospace;
-    text-decoration: underline;
-    background-color: black;
-    font-size: 34px;
-}
-
-.skilllist ul {
+.listing {
     list-style-type: none;
     padding: 0px 0px 0px 0px;
     font-family: monospace;
